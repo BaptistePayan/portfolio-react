@@ -1,3 +1,7 @@
+import react from "react";
+import Nav from "../components/Header";
+
+
 const MentionsLegales = () => {
     return(
         <div>

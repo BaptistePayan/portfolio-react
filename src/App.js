@@ -26,20 +26,33 @@ const [users, setUsers] = useState([]);
         </div>
     )
 } */
+    import { Route, Routes, Link } from "react-router-dom";
+  
+    
+    
+    
+    import Services from "./pages/Services";
+    import Contact from "./pages/Contact";
+    import MentionsLegales from "./pages/MentionsLegales";
 
-import React from "react";
+
+
+    import React from "react";
 import Home from "./pages/Home";
-import Nav from "./components/Header";
+import Portfolio from "./pages/Portfolio";
 
 const App = () => {
   return (
   <div>
 <Home />
+<Portfolio />
   </div>
   )
 }
 
 
 export default App
+
+
  
 
