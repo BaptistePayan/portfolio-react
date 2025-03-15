@@ -5,7 +5,7 @@ import Nav from "../components/Header";
 const MentionsLegales = () => {
     return(
         <div>
-            <h1></h1>
+            <h1>ça marche !</h1>
         </div>
     )
     }

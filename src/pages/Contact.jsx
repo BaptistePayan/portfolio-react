@@ -5,7 +5,7 @@ import Nav from "../components/Header";
 const Contact = () => {
     return(
         <div>
-            <h1></h1>
+            <h1>pipi</h1>
         </div>
     )
     }

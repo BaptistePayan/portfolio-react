@@ -6,7 +6,7 @@ import Nav from "../components/Header";
 const Services = () => {
     return(
         <div>
-            <h1></h1>
+            <h1>ENFIN</h1>
         </div>
     )
     }

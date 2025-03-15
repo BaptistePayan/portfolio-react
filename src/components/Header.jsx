@@ -1,3 +1,12 @@
+/*
+import { Route, Routes, Link } from "react-router-dom";
+import Home from "../pages/Home";
+import Contact from "../pages/Contact";
+import MentionsLegales from "../pages/MentionsLegales";
+import Portfolio from "../pages/Portfolio";
+import Services from "../pages/Services";
+
+
 const Nav = () => {
     return(
         <div className="app">
@@ -10,24 +19,31 @@ const Nav = () => {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                       <ul className="navbar-nav ms-auto">
-                        <li className="nav-item mx-0 mx-lg-1"> <a className="nav-link active py-3 px-0 px-lg-3 rounded" >Home</a> <Link to="Home"></Link>
+                        <li className="nav-item mx-0 mx-lg-1"> <Link to="Home" className="nav-link active py-3 px-0 px-lg-3 rounded">Home</Link>
                         </li>
-                        <li className="nav-item mx-0 mx-lg-1"> <a className="nav-link active py-3 px-0 px-lg-3 rounded" href="#Services">Services</a>
+                        <li className="nav-item mx-0 mx-lg-1"> <Link to="Services"className="nav-link active py-3 px-0 px-lg-3 rounded" ></Link>
                         </li>
-                        <li className="nav-item mx-0 mx-lg-1"> <a className="nav-link active py-3 px-0 px-lg-3 rounded" href="#Portfolio">Portfolio</a>
+                        <li className="nav-item mx-0 mx-lg-1"> <Link to="Portfolio" className="nav-link active py-3 px-0 px-lg-3 rounded"></Link>
                           </li>
-                          <li className="nav-item mx-0 mx-lg-1"> <a className="nav-link active py-3 px-0 px-lg-3 rounded" href="#Contact">Contact</a>
+                          <li className="nav-item mx-0 mx-lg-1"> <Link to="Contact" className="nav-link active py-3 px-0 px-lg-3 rounded"></Link>
                           </li>
-                          <li className="nav-item mx-0 mx-lg-1"> <a className="nav-link active py-3 px-0 px-lg-3 rounded" href="#MentionsLegales">Mentions légales</a>
+                          <li className="nav-item mx-0 mx-lg-1"> <Link to="MentionsLegales" className="nav-link active py-3 px-0 px-lg-3 rounded"></Link>
                           </li>
                           </ul>
                     </div>
                   </div>
                 </nav>
           </header>
+          <Routes>
+      <Route path="/" element={<Home/>}></Route>
+      <Route path="/Services" element={<Services/>}></Route>
+      <Route path="/Portfolio" element={<Portfolio/>}></Route>
+      <Route path="/Contact" element={<Contact/>}></Route>
+      <Route path="/MentionsLegales" element={<MentionsLegales/>}></Route>
+      </Routes>
             </div>
     )
     }
     
     export default Nav;
-
+*/
