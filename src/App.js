@@ -43,6 +43,7 @@ import Portfolio from "./pages/Portfolio";
 import Services from "./pages/Services";
 import MentionsLegales from "./pages/MentionsLegales";
 import Contact from "./pages/Contact";
+import Footer from "./components/Footer";
 
 /*const App = () => {
   return (
@@ -84,6 +85,8 @@ const App = () => {
                 </div>
               </nav>
         </header>
+        
+       
         <Routes>
     <Route path="/Home" element={<Home/>}></Route>
     <Route path="/Services" element={<Services/>}></Route>
@@ -91,11 +94,17 @@ const App = () => {
     <Route path="/Contact" element={<Contact/>}></Route>
     <Route path="/MentionsLegales" element={<MentionsLegales/>}></Route>
     </Routes>
-          </div>
-  )
+
+     </div>
+          
+    )
   }
   
   export default App;
+
+  
+  
+ 
 
 
  

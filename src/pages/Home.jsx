@@ -1,6 +1,7 @@
 
 import Modal from "../components/BtnModal";
 import Bloc1 from "../components/Bloc1";
+import Footer from "../components/Footer";
 
 
 
@@ -10,6 +11,8 @@ return(
 <div>
     <Modal />
     <Bloc1 />
+    <Footer />
+    
 </div>
 
 )

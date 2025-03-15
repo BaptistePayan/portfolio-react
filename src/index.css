@@ -36,3 +36,8 @@ code {
   width: 90%;
 }
 
+.none {
+  text-decoration: none;
+  color: aliceblue;
+}
+

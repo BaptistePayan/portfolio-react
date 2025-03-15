@@ -1,4 +1,4 @@
-import react from "react";
+
 
 const Card = ({ img, h5, p, btn, footer  }) => {
     return(

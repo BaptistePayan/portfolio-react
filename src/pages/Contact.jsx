@@ -1,10 +1,12 @@
+import Footer from "../components/Footer";
+
 
 
 
 const Contact = () => {
     return(
         <div>
-            <h1>pipi</h1>
+            <Footer />
         </div>
     )
     }

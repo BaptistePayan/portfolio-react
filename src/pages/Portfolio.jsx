@@ -1,10 +1,13 @@
-
+import Footer from "../components/Footer";
 
 
 
 const Portfolio = () => {
     return(
-       <div>hello</div>
+       <div>
+         <Footer />
+         hello
+         </div>
     )
     }
     
