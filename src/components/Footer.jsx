@@ -11,7 +11,7 @@ const Footer = () => {
     return(
 <div class="container bg-dark text-white">
             <footer className="row">
-                <div class="col col-sm-12 col-lg-4 col-md-4">
+                <div className="col col-sm-12 col-lg-4 col-md-4">
                  <h4>John Doe</h4>
                  <ul className="nav flex-column">
                     <li className="nav-item">40 rue Laure Debiold</li>
