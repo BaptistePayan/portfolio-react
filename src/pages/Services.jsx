@@ -6,6 +6,7 @@ import SerCard from "../components/SerCard";
 const Services = () => {
     return(
         <div>
+            <div class="container">
             <div class="banner">
             <img src="img/banner.jpg"></img>
             </div>
@@ -15,7 +16,7 @@ const Services = () => {
             </div>
             <SerCard />
             <Footer />
-            <h1>ENFIN</h1>
+            </div>
         </div>
     )
     }

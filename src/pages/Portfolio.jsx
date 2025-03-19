@@ -7,6 +7,7 @@ import react from "react";
 const Portfolio = () => {
     return(
        <div>
+         <div class="container">
          <div class="h3 pb-2 mb-4 border-bottom border-primary border-3"> {/*il faut que je centre avec les class bootstrap, essayer de mettre dans un container*/}
                 <h1>Portfolio</h1>
                 <p>Voici quelques-unes de mes réalisations</p>
@@ -38,7 +39,7 @@ const Portfolio = () => {
             
             
          <Footer />
-         
+         </div>
          </div>
     )
     }

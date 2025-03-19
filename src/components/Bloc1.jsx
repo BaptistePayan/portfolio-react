@@ -16,7 +16,7 @@ const Bloc1 = () => {
             </div>
         </div>
 
-            <div class="c1 card border border-0 col-md-6 col-lg-6 col-sm-12 mt-4">  
+            <div class="c1 card border border-0 col-md-6 col-lg-6 col-sm-12 pt-4">  
                 <div class="h3 pb-2 mb-4 border-bottom border-primary border-3">
                     Mes compétences
                   </div> 
