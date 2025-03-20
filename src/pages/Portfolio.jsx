@@ -1,6 +1,7 @@
 import Footer from "../components/Footer";
 import Card from "../components/Card"
 import react from "react";
+import Titre from "../components/Titre";
 
 
 
@@ -8,10 +9,7 @@ const Portfolio = () => {
     return(
        <div>
          <div class="container">
-         <div class="h3 pb-2 mb-4 border-bottom border-primary border-3"> {/*il faut que je centre avec les class bootstrap, essayer de mettre dans un container*/}
-                <h1>Portfolio</h1>
-                <p>Voici quelques-unes de mes réalisations</p>
-         </div>
+         <Titre title="Portfolio" subtitle="Voici quelques-unes de mes réalisations"/>
             
             <div class="row">
             <div className="col col-sm-12 col-lg-4 col-md-4">

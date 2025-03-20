@@ -6,13 +6,17 @@ const Modal = () => {
 <div className="card text-bg-dark">
     <img src="img/hero-bg.jpg" id="img1" class="col-12 img-fluid " alt="men with computer"></img>   {/*<!--image responsive qui prend les 12 colonnes-->*/}
     <div className="card-img-overlay position-absolute top-50 start-50 translate-middle">
-      <h1 className="card-title">Bonjour, je suis John Doe</h1>
-      <h2 className="card-text">Dévellopeur web full stack</h2>
       
-</div>{/*<!-- Button trigger modal -->*/}
-<button type="button" className="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+      <h1 className="card-title d-flex justify-content-center">Bonjour, je suis John Doe</h1>
+      <h2 className="card-text d-flex justify-content-center">Dévellopeur web full stack</h2>
+      
+{/*<!-- Button trigger modal -->*/}
+<div class="d-flex justify-content-center">
+<button type="button" className="btn btn-danger col-md-4" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
 En savoir plus
 </button>
+</div>
+</div>
 
 {/*<!-- Modal -->*/}
 <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">

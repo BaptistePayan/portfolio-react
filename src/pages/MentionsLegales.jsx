@@ -1,12 +1,17 @@
 import Footer from "../components/Footer";
+import Accordeon from "../components/Accordeon";
+import Titre from "../components/Titre";
+
 
 
 const MentionsLegales = () => {
     return(
         <div>
-            <h1>ça marche !</h1>
+            <div class="container">
+            <Titre title="Mentions Légales" />
+            <Accordeon />
             <Footer />
-            
+            </div>
         </div>
     )
     }

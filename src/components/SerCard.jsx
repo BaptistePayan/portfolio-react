@@ -1,6 +1,6 @@
 const SerCard = () => {
     return(
-        <section class="row">
+        <section class="row pb-5">
             <div class="col col-sm-12 col-lg-4 col-md-4">
     <div class="card text-center h-100" >
         <i class="bi bi-brush text-primary h3 pt-4"></i>
