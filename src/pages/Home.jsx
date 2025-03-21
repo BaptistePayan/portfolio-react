@@ -3,18 +3,12 @@ import Bloc1 from "../components/Bloc1";
 
 
 
-
-
-
 const Home = () => {
-return(
+    return(
 <div>
     <Modal />
     <Bloc1 />
-    
-    
 </div>
-
 )
 }
 

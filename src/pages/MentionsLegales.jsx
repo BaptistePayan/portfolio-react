@@ -5,14 +5,13 @@ import Titre from "../components/Titre";
 
 const MentionsLegales = () => {
     return(
-        <div>
-            <div class="container">
-            <Titre title="Mentions Légales" />
-            <Accordeon />
-            
-            </div>
-        </div>
-    )
-    }
+<div>
+    <div class="container">
+        <Titre title="Mentions Légales" />
+        <Accordeon />
+    </div>
+</div>
+)
+}
     
-    export default MentionsLegales;
+export default MentionsLegales;

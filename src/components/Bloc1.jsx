@@ -1,11 +1,8 @@
-
-
-
 const Bloc1 = () => {
    return(
     //<!-- <div class="d-flex justify-content-center"> -->
-    <section class="container">
-<div class="row justify-content-center border-light shadow p-3 mb-5 bg-body-tertiary rounded">     {/*<!--on declare row pour la responsive et justify pour centrer puis on ajoute un bord avec des ombres-->*/}
+<section class="container">
+    <div class="row justify-content-center border-light shadow p-3 mb-5 bg-body-tertiary rounded">     {/*<!--on declare row pour la responsive et justify pour centrer puis on ajoute un bord avec des ombres-->*/}
         <div class="c1 card border border-0 col-md-6 col-lg-6 col-sm-12">. {/*<!--responsive 2 : tablette et ordi 1 = portable-->*/}
             <div class="h3 pb-2 mb-4 border-bottom border-primary border-3">                            {/*<!--titre H3-->*/}
                 À propos
@@ -41,8 +38,8 @@ const Bloc1 = () => {
                     <div class="progress-bar1 bg-primary" ></div>
                   </div>
             </div>
-        </div>
-        </section>
+    </div>
+</section>
   
    ) 
 }
