@@ -55,6 +55,10 @@ code {
   background-color: aliceblue;
 }
 
+.card:hover {
+  filter:drop-shadow(30px 10px 40px #efefef)
+}
+
 /*.map {
   width: 600px;
    height: 450px;

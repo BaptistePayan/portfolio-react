@@ -7,7 +7,7 @@ const Bloc1 = () => {
             <div class="h3 pb-2 mb-4 border-bottom border-primary border-3">                            {/*<!--titre H3-->*/}
                 À propos
               </div>
-            <img src="img/john-doe-about.jpg" class="card-img-top" alt="..."></img>
+            <img src="img/john-doe-about.jpg" class="card-img-top" alt="john doe qui fait semblant de faire son portfolio"></img>
             <div class="card-body">
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam quisquam voluptas quod dolor, saepe aut ipsum repellat. Harum sequi dicta possimus repudiandae? Illum totam reiciendis unde ipsam consequuntur tempora maxime?</p>
             </div>

@@ -1,7 +1,7 @@
 import Accordeon from "../components/Accordeon";
 import Titre from "../components/Titre";
 
-
+<meta name="robots" content="noindex, nofollow"></meta>
 
 const MentionsLegales = () => {
     return(
