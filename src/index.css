@@ -40,6 +40,20 @@ code {
   text-decoration: none;
   color: aliceblue;
 }
+.none:hover {
+  font-weight: 900;
+}
+
+.bi-github:hover{
+  background-color: aliceblue;
+}
+
+.bi-twitter:hover{
+  background-color: aliceblue;
+}
+.bi-linkedin:hover{
+  background-color: aliceblue;
+}
 
 /*.map {
   width: 600px;

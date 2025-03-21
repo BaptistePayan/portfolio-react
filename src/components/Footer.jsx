@@ -12,7 +12,11 @@ const Footer = () => {
                        <li className="nav-item">69009 Lyon, France</li>
                        <li className="nav-item">10 20 30 40 50</li>
                        <li className="nav-item">john.doe@gmail.com</li>
-                       <li className="nav-item"><i class="bi bi-github"></i><i class="bi bi-twitter ps-2"></i><i class="bi bi-linkedin ps-2"></i></li>
+                       <li className="nav-item">
+                        <a href="https://github.com/github-john-doe"target="_blank" rel="noreferrer"><i class="bi bi-github none"></i></a>
+                        <a href="https://x.com/jon_d_doe"target="_blank" rel="noreferrer"><i class="bi bi-twitter ps-2 none"></i></a>
+                        <a href="https://uk.linkedin.com/company/john-doe" target="_blank" rel="noreferrer"><i class="bi bi-linkedin ps-2 none"></i></a>
+                        </li>
                        </ul>
                 </div>
                 <div className="col col-sm-12 col-lg-4 col-md-4">
@@ -28,12 +32,12 @@ const Footer = () => {
                 <div className="col col-sm-12 col-lg-4 col-md-4">
                     <h4>Mes dernières réalisation</h4>
                     <ul class="nav flex-column">
-                       <li className="nav-item">Fresh Food</li>
-                       <li className="nav-item">Restaurant Akira</li>
-                       <li className="nav-item">Espace bien être</li>
-                       <li className="nav-item">SEO</li>
-                       <li className="nav-item">Création d'une API</li>
-                       <li className="nav-item">Maquette d'un site</li>
+                       <li className="nav-item"><Link to="Portfolio" className="none">Fresh Food</Link></li>
+                       <li className="nav-item"><Link to="Portfolio" className="none">Restaurant Akira</Link></li>
+                       <li className="nav-item"><Link to="Portfolio" className="none"> Espace bien être</Link></li>
+                       <li className="nav-item"><Link to="Portfolio" className="none">SEO</Link></li>
+                       <li className="nav-item"><Link to="Portfolio" className="none">Création d'une API</Link></li>
+                       <li className="nav-item"><Link to="Portfolio" className="none">Maquette d'un site</Link></li>
                     </ul>
                 </div>
             </footer>
