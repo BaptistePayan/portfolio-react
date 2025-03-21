@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+div, section {
+  font-family: "Nunito Sans", sans-serif ;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Nunito Sans", sans-serif ;
+  font-weight: 600;
+}
+
+/*
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,7 +23,7 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
 
 .cardPortfolio {
   width: 18rem
@@ -56,7 +69,21 @@ code {
 }
 
 .card:hover {
-  filter:drop-shadow(30px 10px 40px #efefef)
+  filter:drop-shadow(30px 10px 4px #efefef)
+
+}
+
+.card:hover {
+  background-color: #efefef;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.nav-link:focus{
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 /*.map {
