@@ -1,6 +1,4 @@
-import Footer from "../components/Footer";
 import Card from "../components/Card"
-import react from "react";
 import Titre from "../components/Titre";
 
 
@@ -36,7 +34,7 @@ const Portfolio = () => {
             </div>
             
             
-         <Footer />
+         
          </div>
          </div>
     )

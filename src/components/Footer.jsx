@@ -3,7 +3,7 @@ import Home from "../pages/Home";
 import Portfolio from "../pages/Portfolio";
 import Services from "../pages/Services";
 import MentionsLegales from "../pages/MentionsLegales";
-import Contact from "../pages/Contact";
+import Contact from "../pages/Contact"; 
 
 
 
@@ -43,13 +43,15 @@ const Footer = () => {
                     </ul>
                    </div>
             </footer>
-            <Routes>
+            
+            
+     {/*       <Routes>
     <Route path="/Home" element={<Home/>}></Route>
     <Route path="/Services" element={<Services/>}></Route>
     <Route path="/Portfolio" element={<Portfolio/>}></Route>
     <Route path="/Contact" element={<Contact/>}></Route>
     <Route path="/MentionsLegales" element={<MentionsLegales/>}></Route>
-    </Routes>
+    </Routes> */}
         </div>
  )
 }

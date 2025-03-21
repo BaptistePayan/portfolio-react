@@ -16,7 +16,7 @@ const [users, setUsers] = useState([]);
     return (
         <div className="App">
           <header>
-            <h1>oui</h1>
+            <h1></h1>
             </header>
             <ul>
               {users.map(user => (
@@ -26,6 +26,10 @@ const [users, setUsers] = useState([]);
         </div>
     )
 } */
+
+
+    /*pour la modale j'ai voulu utilisé le useEffect mais force est de constaté qu'il y'a quelque chose qui ne va pas et je ne trouve pas la solution
+je vous laisse mon travail ici afin que vous puissiez m'expliquer à la correction */
     
   
     
@@ -44,16 +48,6 @@ import Services from "./pages/Services";
 import MentionsLegales from "./pages/MentionsLegales";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
-
-/*const App = () => {
-  return (
-  <div>
-<Home />
-<Portfolio />
-  </div>
-  )
-}
-export default App*/
 
 
 
@@ -85,6 +79,8 @@ const App = () => {
                 </div>
               </nav>
         </header>
+
+       
         
        
         <Routes>
@@ -94,8 +90,7 @@ const App = () => {
     <Route path="/Contact" element={<Contact/>}></Route>
     <Route path="/MentionsLegales" element={<MentionsLegales/>}></Route>
     </Routes>
-
-     </div>
+   </div>
           
     )
   }

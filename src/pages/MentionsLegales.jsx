@@ -1,4 +1,3 @@
-import Footer from "../components/Footer";
 import Accordeon from "../components/Accordeon";
 import Titre from "../components/Titre";
 
@@ -10,7 +9,7 @@ const MentionsLegales = () => {
             <div class="container">
             <Titre title="Mentions Légales" />
             <Accordeon />
-            <Footer />
+            
             </div>
         </div>
     )
