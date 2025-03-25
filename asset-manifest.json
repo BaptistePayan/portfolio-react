@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/BaptistePayan/portfolio-react/static/css/main.72af02d7.css",
-    "main.js": "/BaptistePayan/portfolio-react/static/js/main.dd9c742f.js",
-    "static/js/453.f2f3a70b.chunk.js": "/BaptistePayan/portfolio-react/static/js/453.f2f3a70b.chunk.js",
-    "index.html": "/BaptistePayan/portfolio-react/index.html",
-    "main.72af02d7.css.map": "/BaptistePayan/portfolio-react/static/css/main.72af02d7.css.map",
-    "main.dd9c742f.js.map": "/BaptistePayan/portfolio-react/static/js/main.dd9c742f.js.map",
-    "453.f2f3a70b.chunk.js.map": "/BaptistePayan/portfolio-react/static/js/453.f2f3a70b.chunk.js.map"
+    "main.css": "/portfolio-react/static/css/main.72af02d7.css",
+    "main.js": "/portfolio-react/static/js/main.c1131928.js",
+    "static/js/453.f2f3a70b.chunk.js": "/portfolio-react/static/js/453.f2f3a70b.chunk.js",
+    "index.html": "/portfolio-react/index.html",
+    "main.72af02d7.css.map": "/portfolio-react/static/css/main.72af02d7.css.map",
+    "main.c1131928.js.map": "/portfolio-react/static/js/main.c1131928.js.map",
+    "453.f2f3a70b.chunk.js.map": "/portfolio-react/static/js/453.f2f3a70b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.72af02d7.css",
-    "static/js/main.dd9c742f.js"
+    "static/js/main.c1131928.js"
   ]
 }
